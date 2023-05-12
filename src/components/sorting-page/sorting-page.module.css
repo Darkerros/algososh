@@ -1,0 +1,25 @@
+.controlPanel {
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radioContainer {
+    gap: 10px;
+    display: flex;
+}
+
+.btnContainer {
+    gap: 15px;
+    display: flex;
+}
+
+.columnContainer {
+    margin-top: 50px;
+
+    gap: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}

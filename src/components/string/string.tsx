@@ -1,9 +1,9 @@
 import {ChangeEvent, useState} from "react";
 import styles from './string.module.css'
-import { SolutionLayout } from "../../ui/solution-layout/solution-layout";
-import {Circle} from "../../ui/circle/circle";
-import {Button} from "../../ui/button/button";
-import {Input} from "../../ui/input/input";
+import { SolutionLayout } from "../ui/solution-layout/solution-layout";
+import {Circle} from "../ui/circle/circle";
+import {Button} from "../ui/button/button";
+import {Input} from "../ui/input/input";
 import {ElementStates} from "../../types/element-states";
 import {expandStrokeElementArray} from "../../utils/expand-stroke-element-array";
 import {IStrokeElement} from "../../types/stroke-element-interface";

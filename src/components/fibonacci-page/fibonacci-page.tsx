@@ -1,12 +1,12 @@
 import React, {ChangeEvent, useState} from "react";
 import styles from './fibonacci-page.module.css'
-import {SolutionLayout} from "../../ui/solution-layout/solution-layout";
+import {SolutionLayout} from "../ui/solution-layout/solution-layout";
 import {SHORT_DELAY_IN_MS} from "../../constants/delays";
 import {calcFiboArray} from "../../utils/calc-fibo-array";
 import {sleep} from "../../utils/sleep";
-import {Circle} from "../../ui/circle/circle";
-import {Button} from "../../ui/button/button";
-import {Input} from "../../ui/input/input";
+import {Circle} from "../ui/circle/circle";
+import {Button} from "../ui/button/button";
+import {Input} from "../ui/input/input";
 
 export const FibonacciPage: React.FC = () => {
     const [inputValue, setInputValue] = useState("");

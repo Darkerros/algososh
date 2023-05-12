@@ -1,10 +1,10 @@
 import React, {ChangeEvent, useState} from "react";
 import styles from './sorting-page.module.css'
-import { SolutionLayout } from "../../ui/solution-layout/solution-layout";
-import {Button} from "../../ui/button/button";
-import {Column} from "../../ui/column/column";
+import { SolutionLayout } from "../ui/solution-layout/solution-layout";
+import {Button} from "../ui/button/button";
+import {Column} from "../ui/column/column";
 import {Direction} from "../../types/direction";
-import {RadioInput} from "../../ui/radio-input/radio-input";
+import {RadioInput} from "../ui/radio-input/radio-input";
 import {ISortElement} from "../../types/sort-element-interface";
 import {generateSortElemArray} from "../../utils/generate-sort-elem-array";
 import {bubleSortWithIterCalback} from "../../utils/buble-sort-with-iter-calback";

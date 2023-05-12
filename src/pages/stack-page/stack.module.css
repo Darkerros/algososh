@@ -1,0 +1,18 @@
+.controlPanel {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 250px;
+}
+
+.circleContainer {
+    margin-top: 35px;
+
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

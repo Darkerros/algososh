@@ -1,10 +1,10 @@
 import {ChangeEventHandler, useState} from "react";
 import styles from './queue-page.module.css'
-import {SolutionLayout} from "../ui/solution-layout/solution-layout";
-import {Circle} from "../ui/circle/circle";
+import {SolutionLayout} from "../../ui/solution-layout/solution-layout";
+import {Circle} from "../../ui/circle/circle";
 import {ElementStates} from "../../types/element-states";
-import {Input} from "../ui/input/input";
-import {Button} from "../ui/button/button";
+import {Input} from "../../ui/input/input";
+import {Button} from "../../ui/button/button";
 import {useQueue} from "../../hooks/use-queue";
 
 

@@ -1,0 +1,27 @@
+.circleContainer {
+    margin-top: 100px;
+
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.circleItem {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.controlPanel {
+
+}
+
+.controlPanelItem {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 250px;
+}

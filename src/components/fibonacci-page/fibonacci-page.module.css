@@ -1,0 +1,18 @@
+.btnContainer {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 250px;
+}
+
+.circleContainer {
+    margin-top: 50px;
+    gap: 20px;
+    row-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
